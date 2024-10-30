@@ -1,5 +1,5 @@
 # 💫 About Me:
-👋 Hi, I'm Soham Patil!<br>💻 Full-stack & Blockchain Developer (MERN + Solidity)<br>🚀 Passionate about building dynamic web applications and decentralized applications (dApps).<br>🎯 Currently seeking opportunities as a Full-stack or Blockchain Developer.<br>📚 Learning and contributing to open-source projects like Formbricks & freeCodeCamp.<br>🔗 Exploring the world of Web3 and smart contracts.<br>🌱 On a journey to level up my skills every day.<br>💬 Ask me about JavaScript, React, Node.js, MongoDB, and Solidity!<br>📫 Reach me at: soham203patil@gmail.com
+👋 Hi, I'm Soham Patil!<br>💻 Full-stack & Blockchain Developer (MERN + Solidity)<br>🚀 Passionate about building dynamic web applications and decentralized applications (dApps).<br>🎯 Currently seeking opportunities as a Full-stack or Blockchain Developer.<br>📚 Learning and contributing to open-source projects like Formbricks & freeCodeCamp.<br>🔗 Exploring the world of Web3 and smart contracts.<br>🌱 On a journey to level up my skills every day.<br>💬 Ask me about JavaScript, React, Node.js, MongoDB, and Solidity!<br>📫 Reach me at: soham203patil@gmail.com & https://portfolio-delta-gules.vercel.app/
 
 
 ## 🌐 Socials:
