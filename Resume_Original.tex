@@ -1,0 +1,169 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+% Custom hyperlink colors
+\definecolor{darkblue}{rgb}{0.0, 0.0, 0.55}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    urlcolor=darkblue
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/sohampatil203/}{\Large Soham Patil}} & Email : \href{mailto:soham203patil@gmail.com}{soham203patil@gmail.com}\\
+  \href{https://portfolio-delta-gules.vercel.app/}{Portfolio : @sohammm.in} & Mobile : +91 9987304137 \\
+  \href{https://github.com/soham203}{GitHub : github.com/soham203} & \href{https://www.linkedin.com/in/sohampatil203/}{LinkedIn : in/sohampatil203} \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {D Y Patil University}{Pune, Maharashtra}
+      {Bachelor of Technology in Computer Engineering; CGPA: 8.33 / 10}{2022 -- 2026}
+    \resumeSubheading
+      {Matruchhaya High School \& Junior College}{Mumbai, Maharashtra}
+      {HSC (12th Grade)}{2021 -- 2022}
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS------------
+\section{Skills}
+ \resumeSubHeadingListStart
+    \item{
+     \textbf{Languages}{: C++, C, JavaScript (ES6+), TypeScript}
+    }
+    \item{
+     \textbf{Frontend}{: React.js, Next.js, HTML5, CSS3, Tailwind CSS, Bootstrap}
+    }
+    \item{
+     \textbf{Backend}{: Node.js, Express.js, REST APIs}
+    }
+    \item{
+     \textbf{Databases}{: MongoDB, PostgreSQL}
+    }
+    \item{
+     \textbf{Tools}{: Docker, Git, GitHub Actions, VS Code, Postman}
+    }
+ \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+    
+
+    \resumeSubheading
+      {FiTr}{\href{http://fitr-navy.vercel.app}{Live} \textbar{} \href{https://github.com/soham203/Fitr}{GitHub}}
+      {\normalfont{\textbf{Tech Stack:}} TypeScript, Next.js, PostgreSQL}{}
+      \resumeItemListStart
+        \item\small{Built a full-stack financial tracking application supporting expense logging, budget planning, and dynamic data dashboards.}
+        \item\small{Engineered robust, type-safe data handling and server-side rendering architecture utilizing TypeScript and Next.js.}
+        \item\small{Designed a clean, responsive UI with efficient PostgreSQL data storage to ensure a seamless user experience.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {QuizChain}{\href{https://web3-quiz-kappa.vercel.app/}{Live} \textbar{} \href{https://github.com/soham203/Web3-Quiz}{GitHub}}
+      {\normalfont{\textbf{Tech Stack:}} React, Tailwind CSS, Web3}{}
+      \resumeItemListStart
+        \item\small{Engineered a blockchain-focused educational quiz platform covering technical concepts like Solidity, ZKP, DeFi, and Rust.}
+        \item\small{Developed a smooth user interface using React.js and Tailwind CSS, featuring dynamic rendering and smooth pagination.}
+        \item\small{Integrated JSON-based question parsing for rapid content delivery and efficient frontend state management.}
+      \resumeItemListEnd
+
+\resumeSubheading
+      {PrepRoom}{\href{https://under-maintenance-site.vercel.app/}{Live} \textbar{} \href{https://github.com/soham203/UnderMaintenance}{GitHub}}
+      {\normalfont{\textbf{Tech Stack:}} MongoDB, Express, React, Node.js}{}
+      \resumeItemListStart
+        \item\small{Developed a community-driven interview preparation platform for college students targeting campus placements at top MNCs.}
+        \item\small{Built collaborative features including company-wise prep rooms, round-specific notes, and an interactive user upvoting system.}
+        \item\small{Implemented JWT-based secure authentication and deployed the end-to-end MERN stack application on Vercel and Render.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------------
+\section{Certifications}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Foundations of Cybersecurity}
+      {Covered risk management, network security, encryption, and incident response through Google's Coursera program. (March 2024)}
+    \resumeSubItem{Tableau Data Visualization}
+      {Built interactive dashboards and data visualizations; learned trend analysis and storytelling with data using Tableau. (March 2024)}
+    \resumeSubItem{The Web Developer Bootcamp 2026 -- Udemy}
+      {Completed full-stack web development covering HTML, CSS, JavaScript, Node.js, Express, and MongoDB with hands-on projects. (March 2026)}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
