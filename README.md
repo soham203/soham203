@@ -24,19 +24,19 @@
 ![Ethereum](https://img.shields.io/badge/Ethereum-%23645C3B.svg?style=flat&logo=ethereum&logoColor=white)
 
 # 📊 GitHub Stats:
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=soham203&theme=dark&hide_border=true&include_all_commits=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=soham203&theme=dark&hide_border=false&include_all_commits=true&count_private=true&show_icons=true)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=soham203&theme=dark&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com/?user=soham203&theme=dark&hide_border=false)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=soham203&theme=dark&hide_border=true&layout=compact)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=soham203&theme=dark&hide_border=false&layout=compact&langs_count=8)
 
 ## 🏆 GitHub Trophies
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=soham203&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4)
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=soham203&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7)
 
 ### ✍️ Random Dev Quote
 ![Random Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
 ---
-[![Visit Count](https://visitcount.itsvg.in/api?id=soham203&icon=5&color=13)](https://visitcount.itsvg.in)
+<img src="https://visitcount.itsvg.in/api?id=soham203&icon=5&color=13" alt="Visit Count" />
 
 <!-- Proudly created with GPRM (https://gprm.itsvg.in) -->
